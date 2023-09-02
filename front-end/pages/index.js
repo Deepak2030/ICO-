@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import Image from "next/image";
 
 //INTERNAL IMPORT
-import { ICOContext } from "../context/ERC20ICO";
+import { ICOContext } from "../../context/ERC20ICO";
 import Style from "../styles/index.module.css";
 import banner from "../assets/home-banner.png";
 import FunToken from "../assets/funtoken.png";
